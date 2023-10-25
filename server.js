@@ -16,7 +16,7 @@ const startServer = async () => {
   app.use('/api/jobs', userRouter);
 
   app.listen(env.port, () => {
-    console.log(`maisoft v2 running on port: ${env.port}`);
+    console.log(`server running on port: ${env.port}`);
   });
   // app.listen(env.port)
 };
